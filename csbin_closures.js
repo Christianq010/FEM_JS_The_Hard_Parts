@@ -17,7 +17,6 @@ var function1 = createFunction();
 
 
 function createFunctionPrinter(input) {
-	let prinetValue= '';
   function print() {
     console.log(input)
   }
@@ -25,8 +24,8 @@ function createFunctionPrinter(input) {
 }
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
-var printSample = createFunctionPrinter('sample');
-printSample();
+// var printSample = createFunctionPrinter('sample');
+// printSample();
 // var printHello = createFunctionPrinter('hello');
 // printHello();
 
@@ -57,13 +56,19 @@ var jasCounter = outer();
 
 
 function addByX(x) {
-
+  function add (number) {
+    var result = number + x;
+    console.log(result);
+  }
+  return add;
 }
+
+
 
 var addByTwo = addByX(2);
 
 // now call addByTwo with an input of 1
-
+addByTwo(4);
 
 // now call addByTwo with an input of 2
 
