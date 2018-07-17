@@ -7,3 +7,5 @@ Code from the course, you can find the course here - https://frontendmasters.com
 
 * Callbacks - http://csbin.io/callbacks
 * Closures - http://csbin.io/closures
+* Async - https://jsbin.com/dubidituvi/edit?js,console,output
+* OOP - http://csbin.io/oop
