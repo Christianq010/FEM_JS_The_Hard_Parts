@@ -10,7 +10,7 @@
 
 function makePerson(name, age) {
 	// add code here
-	var Person = {};
+	var Person = Object.create(null);
   Person.name = name;
   Person.age = age;
 	return Person;
@@ -20,8 +20,10 @@ var vicky = makePerson('Vicky', 24);
 
 
 // /********* Uncomment these lines to test your work! *********/
-console.log(vicky.name); // -> Logs 'Vicky'
-console.log(vicky.age); // -> Logs 24
+// console.log(vicky.name); // -> Logs 'Vicky'
+// console.log(vicky.age); // -> Logs 24
+
+
 
 
 
@@ -35,7 +37,9 @@ console.log(vicky.age); // -> Logs 24
 
 var personStore = {
 	// add code here
-
+  greet: function () {
+    console.log('hello');
+  }
 
 };
 
@@ -48,17 +52,24 @@ var personStore = {
 
 function personFromPersonStore(name, age) {
 	// add code here
-
-
-}
+  var Person = Object.create(null);
+  	Person.name = name;
+  	Person.age = age;
+  	Person.greet = personStore.greet;
+  	Person.introduce = function () {
+      return console.log(`Hi, my name is ${this.name}`);
+    }
+	return Person;
+};
 
 var sandra = personFromPersonStore('Sandra', 26);
 
 
 // /********* Uncomment these lines to test your work! *********/
-// console.log(sandra.name); // -> Logs 'Sandra'
-// console.log(sandra.age); //-> Logs 26
-// sandra.greet(); //-> Logs 'hello'
+console.log(sandra.name); // -> Logs 'Sandra'
+console.log(sandra.age); //-> Logs 26
+sandra.greet(); //-> Logs 'hello'
+sandra.introduce(); // log 'Hi my name is [name]'
 
 
 
