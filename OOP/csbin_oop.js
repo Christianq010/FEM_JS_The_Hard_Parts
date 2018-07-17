@@ -10,16 +10,18 @@
 
 function makePerson(name, age) {
 	// add code here
-
-
+	var Person = {};
+  Person.name = name;
+  Person.age = age;
+	return Person;
 }
 
 var vicky = makePerson('Vicky', 24);
 
 
 // /********* Uncomment these lines to test your work! *********/
-// console.log(vicky.name); // -> Logs 'Vicky'
-// console.log(vicky.age); // -> Logs 24
+console.log(vicky.name); // -> Logs 'Vicky'
+console.log(vicky.age); // -> Logs 24
 
 
 
