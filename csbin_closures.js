@@ -12,17 +12,21 @@ function createFunction() {
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
 var function1 = createFunction();
-function1(console.log('Hi'));
+// function1(console.log('Hi'));
 
 
 
 function createFunctionPrinter(input) {
-
+	let prinetValue= '';
+  function print() {
+    console.log(input)
+  }
+  return print;
 }
 
 // UNCOMMENT THESE TO TEST YOUR WORK!
-// var printSample = createFunctionPrinter('sample');
-// printSample();
+var printSample = createFunctionPrinter('sample');
+printSample();
 // var printHello = createFunctionPrinter('hello');
 // printHello();
 
