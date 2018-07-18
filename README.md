@@ -1,11 +1,3 @@
-# Front-End Masters : JavaScript: The Hard Parts Course
+# Front-End Masters : 'ront-End Developer to Lead Engineer' Learning Path
 
-Code from the course, you can find the course here - https://frontendmasters.com/courses/javascript-new-hard-parts/
-
-### Callbacks and Higher Order Functions
-#### Pair Programming Excerises
-
-* Callbacks - http://csbin.io/callbacks
-* Closures - http://csbin.io/closures
-* Async - https://jsbin.com/dubidituvi/edit?js,console,output
-* OOP - http://csbin.io/oop
+Code from the course, you can find the course here - https://frontendmasters.com/courses/
