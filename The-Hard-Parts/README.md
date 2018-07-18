@@ -9,3 +9,4 @@ Code from the course, you can find the course here - https://frontendmasters.com
 * Closures - http://csbin.io/closures
 * Async - https://jsbin.com/dubidituvi/edit?js,console,output
 * OOP - http://csbin.io/oop
+* OOP MZN docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
