@@ -13,3 +13,8 @@ _Will Sentance (Codesmith)_
 _Kyle Simpson (You don't know JS)_
 > Master JavaScript deeply learning scope and closure, functions, the prototype system, closure, types, coercion and new ES6 features in JavaScript!
 * https://frontendmasters.com/courses/javascript-foundations/
+
+### ES6: The Right Parts
+_Kyle Simpson (You don't know JS)_
+> Learn new ES6 JavaScript language features like arrow function, destructuring, generators & more to write cleaner and more productive, readable programs.
+* https://frontendmasters.com/courses/es6-right-parts/
