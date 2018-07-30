@@ -18,3 +18,8 @@ _Kyle Simpson (You don't know JS)_
 _Kyle Simpson (You don't know JS)_
 > Learn new ES6 JavaScript language features like arrow function, destructuring, generators & more to write cleaner and more productive, readable programs.
 * https://frontendmasters.com/courses/es6-right-parts/
+
+### Complete Intro to React, v3 (feat. Redux, Router & Flow)
+_Brian Holt (Microsoft)_
+> Much more than an intro, you’ll not just learn React, but also a proven set of tools including Router v4 for paging, Jest for testing, Redux and Flow!
+* https://frontendmasters.com/courses/react/
