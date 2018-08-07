@@ -1,5 +1,5 @@
 var numbers = {
-	// ..
+	// ..some random numbers or empty array
 };
 
 // should print 0..100 by 1s
